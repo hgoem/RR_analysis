@@ -1,0 +1,19 @@
+---
+title: "RR_16S_analysis2"
+author: "hgoema"
+date: "2025-02-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+suppressMessages(library(readxl))
+suppressMessages(library(vegan))
+suppressMessages(library(tidyverse))
+suppressMessages(library(picante))
+suppressMessages(library(Rmisc))
+```
+
